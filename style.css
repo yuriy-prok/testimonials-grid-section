@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-bg{
+        background-position: top right 18%;
+    }
+
+    .custom-text{
+        font-size: 13px;
+    }
+
+    .custom-size{
+        font-size: 1.2rem;
+    }
+}
